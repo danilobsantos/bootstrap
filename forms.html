@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" scr="js/bootstrap.js"></script>
+
+    <title>Trabalhando com forms</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+        <!--FORMULÁRIO COM LABEL-->
+            <div class="col-4">
+                <form>
+                    <div class="mb-3">                
+                        <label class="form-label">Nome</label>
+                        <input value="Danilo Santos" disabled class="form-control" type="text" name="nome">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">E-mail</label>
+                        <input value="danilo@devstudio.com.br" readonly class="form-control" type="email" name="e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mensagem</label>
+                        <textarea  class="form-control" name="msg"></textarea>
+                    </div>  
+                </form>
+            </div>
+            <!--FIM FORMULÁRIO COM LABEL-->
+            <br><br>
+            <!--FORMULÁRIO COM PLACEHOLDER-->
+            <div class="col-6">
+                <form> 
+                    <div class="mb-3">               
+                        <input class="form-control" placeholder="Nome" type="text" name="nome">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" placeholder="E-mail" type="email" name="e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" placeholder="Mensagem" name="msg"></textarea>  
+                    </div>
+                </form>
+            </div>
+            <!--FIM FORMULÁRIO COM PLACEHOLDER-->
+            <br><br>        
+            <!--TELA DE LOGIN-->
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">E-mail</label>
+                        <input class="form-control" type="email" name="e-mail">
+                        <div class="form-text">Forneça um e-mail válido.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Senha</label>
+                        <input type="password" class="form-control">
+                        <span class="lnr lnr-eye"></span>                       
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">Lembrar-me</label>
+                    </div>
+                    <button type="submit" class="btn btn-success">Entrar</button>
+                </form>
+            </div>
+            <!--FIM TELA DE LOGIN-->
+        </div>
+    </section> 
+</body>
+</html>
