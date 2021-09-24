@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+
+    <title>Modal</title>
+</head>
+<body>
+    <section>
+        <div class="container mt-3">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#meumodal" class="btn btn-primary">Veja mais...</button>
+            <div id="meumodal" class="modal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Título Modal</h5>
+                            <button type="button" data-bs-dismiss="modal" class="btn-close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-6">
+                                <form>
+                                    <div class="mb-3">
+                                        <label class="form-label">E-mail</label>
+                                        <input class="form-control" type="email" name="e-mail">
+                                        <div class="form-text">Forneça um e-mail válido.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Senha</label>
+                                        <input type="password" class="form-control">
+                                        <span class="lnr lnr-eye"></span>                       
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-label">Lembrar-me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-success">Entrar</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
