@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <script type="text/javascript" scr="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
 
     <title>Layout bootstrap</title>
 </head>
@@ -117,10 +118,127 @@
                        </div> 
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
+    <section class="clientes" id="clientes">
+        <div class="container mt-5 mb-5">
+           <div class="row text-center">
+               <div class="col-12">
+                   <p class="h3 cor-tema">Conheça alguns de</p>
+                   <h2 class="h1 cor-tema">Nossos Clientes</h2>
+               </div>               
+               <div id="meuslide" class="carousel carousel-dark carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner mt-5">
+                <div class="carousel-item active">    
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="d-block w-100" src="images/logo.png" alt="clientes">
+                        </div>
+                        <div class="col-3">
+                            <img class="d-block w-100" src="images/logo.png" alt="clientes">
+                        </div>
+                        <div class="col-3">
+                            <img class="d-block w-100" src="images/logo.png" alt="clientes">
+                        </div>
+                        <div class="col-3">
+                            <img class="d-block w-100" src="images/logo.png" alt="clientes">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="d-block w-100" src="images/cliente.png"  alt="clientes">
+                        </div>
+                        <div class="col-3">
+                            <img class="d-block w-100" src="images/cliente.png" alt="clientes">
+                        </div>
+                        <div class="col-3">
+                            <img class="d-block w-100" src="images/cliente.png"  alt="clientes">
+                        </div>
+                        <div class="col-3">
+                            <img class="d-block w-100" src="images/cliente.png" alt="clientes">
+                        </div>                        
+                    </div>                    
+                </div>
+           <!--     <a class="carousel-control-prev" href="#meuslide" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#meuslide" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </a>   -->          
+           </div> 
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 mt-5 mb-5">
+                    <img src="images/cliente.png" alt="logotipo2">
+                    <h4>Endereço</h4>
+                    <p>Rua XXXX, 820 - Centro - Guaxupé/MG</p>
+                </div>
+                <div class="col-3 mt-5 mb-5">
+                    <h4>Links Importantes</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 mt-5 mb-5">
+                    <h4>Últimas Notícias</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Notícia 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Notícia 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Notícia 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Notícia 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 mt-5 mb-5">
+                    <h4>Links de parceiros</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Parceiro 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Parceiro 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Parceiro 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Parceiro 4</a>
+                        </li>
+                    </ul>
+                </div>                
+            </div>
+            <div class="row text-center">
+                <p>Desenvolvido por @DaniloSantos</p>
+            </div>
+        </div>
+    </footer> 
 
 </body>
 </html>
