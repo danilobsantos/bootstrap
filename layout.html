@@ -19,50 +19,70 @@
                     <img src="images/logo.png" alt="logotipo">
                 </div>
                 <div class="col-8">
-                    <nav class="nav justify-content-end">
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link" href="#">Quem Sou</a>
-                        <a class="nav-link" href="#">Cursos</a>
-                        <a class="nav-link" href="#">Clientes</a>
-                        <a class="nav-link" href="#">Contato</a>
-                        <a class="btn btn-success rounded-pill" href="https://wa.me/5535992779193" target="_blank">(35) 99277-9193</a>
+                    <nav class="navbar navbar-light d-sm-none justify-content-end">
+                        <div class="container-fluid justify-content-end">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
                     </nav>
+                    <div class="d-none d-sm-block">
+                        <nav class="nav justify-content-end">
+                            <a class="nav-link" href="#inicio">Home</a>
+                            <a class="nav-link" href="#quemsou">Quem Sou</a>
+                            <a class="nav-link" href="#cursos">Cursos</a>
+                            <a class="nav-link" href="#clientes">Clientes</a>
+                            <a class="nav-link" href="#contato">Contato</a>
+                            <a class="btn btn-success rounded-pill" href="https://wa.me/5535992779193" target="_blank">(35) 99277-9193</a>
+                        </nav>
+                    </div>
+                    <div class="col-12 mobile">
+                        <div class="collapse" id="menuMobile">
+                            <nav class="nav flex-column">
+                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#">Quem Sou</a>
+                                <a class="nav-link" href="#">Cursos</a>
+                                <a class="nav-link" href="#">Contato</a>                                
+                                <a class="btn btn-success rounded-pill" href="https://wa.me/5535992779193" target="_blank">Whatsapp</a>
+                            </nav> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-    <section>
+    <section id="inicio">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-sm-6 order-2 order-sm-1">
                     <img src="images/laptop.png" class="img-destaque d-block mx-auto mt-3" alt="notebook"> 
                 </div>
-                <div class="col-6 align-self-center">
+                <div class="col-12 col-sm-6 order-sm-2 align-self-center banner">
                     <h1 class="cor-tema">Prof. Danilo Santos</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                     <a href="#" class="btn btn-primary rounded-pill btn-lg">Saiba Mais...</a>
                 </div>
             </div>
         </div>
-    <section>
+    <section id="quemsou">
         <div class="container mt-5 mb-5">
             <div class="row">
-                <div class="col-3 text-center">
+                <div class="col-6 col-sm-3 text-center">
                     <img src="images/brain.png" class="d-block mx-auto" alt="brain">
                     <h4 class="cor-tema mt-3">Serviço 1</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <div class="col-3 text-center">
+                <div class="col-6 col-sm-3 text-center">
                     <img src="images/brain.png" class="d-block mx-auto" alt="brain">
                     <h4 class="cor-tema mt-3">Serviço 2</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <div class="col-3 text-center">
+                <div class="col-6 col-sm-3 text-center">
                    <img src="images/brain.png" class="d-block mx-auto"  alt="brain">
                    <h4 class="cor-tema mt-3">Serviço 3</h4>
                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <div class="cor-tema col-3 text-center">
+                <div class="cor-tema col-6 col-sm-3 text-center">
                     <img src="images/brain.png" class="d-block mx-auto" alt="brain">
                     <h4 class="cor-tema mt-3">Serviço 4</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -70,25 +90,25 @@
             </div>
         </div>
     </section>
-    <section class="quem-somos">
+    <section class="quem-somos" >
         <div class="container">
             <div class="row">
-                <div class="col-6 align-self-center">
+                <div class="col-12 col-sm-7 align-self-center banner">
                 <p class="h1">Quem Sou?</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <a href="#" class="btn btn-primary rounded-pill">Inscreva-se</a>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-sm-5">
                     <img src="images/laptop2.png" class="d-block mx-auto mt-5" alt="imagem em destaque" >
                 </div>
             </div>            
         </div>
     </section>
-    <section>
+    <section id="cursos">
         <div class="container mt-5 mb-5">
             <div class="row">
-                <div class="col-4">        
+                <div class="col-12 col-sm-4">        
                     <div class="card">
                         <img src="images/cursogoogleanalytics.jpg" class="card-img-top" alt="Google Analytics">            
                         <div class="card-body">
@@ -98,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <div class="card">
                         <img src="images/cursoseoparadesenvolvedores.jpg" class="card-img-top" alt="curso SEO">
                         <div class="card-body">
@@ -108,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <div class="card">
                        <img src="images/cursogoogleads.jpg" class="card-img-top" alt="curso google ads">
                        <div class="card-body">
@@ -132,32 +152,32 @@
                 <div class="carousel-inner mt-5">
                 <div class="carousel-item active">    
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-6 col-sm-3">
                             <img class="d-block w-100" src="images/logo.png" alt="clientes">
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-3">
                             <img class="d-block w-100" src="images/logo.png" alt="clientes">
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-3">
                             <img class="d-block w-100" src="images/logo.png" alt="clientes">
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-3">
                             <img class="d-block w-100" src="images/logo.png" alt="clientes">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-6 col-sm-3">
                             <img class="d-block w-100" src="images/cliente.png"  alt="clientes">
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-3">
                             <img class="d-block w-100" src="images/cliente.png" alt="clientes">
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-3">
                             <img class="d-block w-100" src="images/cliente.png"  alt="clientes">
                         </div>
-                        <div class="col-3">
+                        <div class="col-6 col-sm-3">
                             <img class="d-block w-100" src="images/cliente.png" alt="clientes">
                         </div>                        
                     </div>                    
@@ -174,15 +194,16 @@
         </div>
     </section>
 
-    <footer class="rodape">
+    <footer class="rodape" id="contato">
         <div class="container">
             <div class="row">
-                <div class="col-3 mt-5 mb-5">
+                <div class="col-12 col-sm-3 mt-5 mb-5">
                     <img src="images/cliente.png" alt="logotipo2">
                     <h4>Endereço</h4>
                     <p>Rua XXXX, 820 - Centro - Guaxupé/MG</p>
+                    <p>Telefone: (35) 3555-0000</p>
                 </div>
-                <div class="col-3 mt-5 mb-5">
+                <div class="col-12 col-sm-3 mt-5 mb-5">
                     <h4>Links Importantes</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item">
@@ -199,7 +220,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-3 mt-5 mb-5">
+                <div class="col-12 col-sm-3 mt-5 mb-5">
                     <h4>Últimas Notícias</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item">
@@ -216,7 +237,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-3 mt-5 mb-5">
+                <div class="col-12 col-sm-3 mt-5 mb-5">
                     <h4>Links de parceiros</h4>
                     <ul class="nav flex-column">
                         <li class="nav-item">
